@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlissfulBites</title>
+    <link rel="stylesheet" href="BlissfulBites.css"> <!--link to the CSS file-->
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="BlissfulBites.html" id="logo">BlissfulBites</a></h1> <!--logo linking to homepage-->
+            <ul>
+                <li><a href="BlissfulBites.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" id="loginLink">Login</a></li> <!--log in link-->
+            </ul>
+        </nav>
+    </header>
+    <!--contact form-->
+<form id="contactForm">
+    <div class="container">
+        <!--first name input-->
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+            <!--last name input-->
+            <label for="fname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+<!--countries list-->
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="united kingdom">United Kingdom</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="turkey">Turkey</option>
+            <option value="africa">Africa</option>
+        </select>
+        <!--subject text area-->
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height: 200px;"></textarea>
+<!--submit button-->
+        <input type="submit" value="Submit">
+    </div>
+</form>
+
+<!--link to the javascript file-->
+        <script src="script.js"></script>
+
+
+
+        </form>
+    </div>

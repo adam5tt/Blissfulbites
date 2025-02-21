@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlissfulBites</title>
+    <link rel="stylesheet" href="BlissfulBites.css"> <!--link to the CSS file-->
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="BlissfulBites.html" id="logo">BlissfulBites</a></h1> <!-- links back to the homepage-->
+            <ul>
+                <li><a href="BlissfulBites.html">Home</a></li> <!--home,recipes,contact and log in link-->
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" id="loginLink">Login</a></li>
+                <!--search bar container-->
+                <div class="container mt-3">
+                    <input type="text" id="recipeSearch" class="form-control" placeholder="Search for a recipe..." onkeyup="searchRecipes()">
+                    <!--search notification-->
+                    <div id="searchNotification" class="alert alert-warning mt-3 text-center" style="display: none;">
+                        🔍 Recipe search coming soon!
+                    </div>
+                </div>
+                
+            </ul>
+        </nav>
+    </header>
+
+   
+    <main>
+        <h2>Delicious Dessert Recipes</h2>
+        <!--chocolate cake recipe-->
+        <div class="recipe">
+            <img src="cake 2.jpg" alt="Chocolate Cake 2">
+            <h3>Chocolate Cake</h3>
+            <p>A rich, moist chocolate cake topped with silky chocolate ganache.</p>
+            <button class="btn btn-warning view-recipe">View Recipe</button>
+
+<!-- Bootstrap Alert Box for Notification -->
+<div id="recipeNotification" class="alert alert-info text-center mt-3" style="display: none;">
+    🍰 Recipe coming soon!
+</div>
+        </div>
+        <!--new york cheesecake recipe-->
+        <div class="recipe">
+            <img src="newyork cheese cake.jpg" alt="New York Cheesecake">
+            <h3>New York Cheesecake</h3>
+            <p>Creamy, smooth, and classic New York-style cheesecake.</p>
+            <button class="btn btn-warning view-recipe">View Recipe</button>
+        </div>
+    
+        <!--sticky toffe pudding recipe-->
+        <div class="recipe">
+            <img src="sticky toffee pudding.jpg.webp" alt="Sticky Toffee Pudding">
+            <h3>Sticky Toffee Pudding</h3>
+            <p>A warm, sticky date pudding served with toffee sauce.</p>
+            <button class="btn btn-warning view-recipe">View Recipe</button>
+        </div>
+
+        <!--cookie dough recipe-->
+        <div class="recipe">
+            <img src="cookie dough.jpg" alt="Cookie Dough">
+            <h3>Cookie Dough</h3>
+            <p>Edible, delicious cookie dough with chocolate chips.</p>
+            <button class="btn btn-warning view-recipe">View Recipe</button>
+        </div>
+    </main>
+    <!--footer-->
+    <div class="footer">
+        <p>© 2025 BlissfulBites. All rights reserved </p>
+      </div>
+
+      <!--link to the java script file -->
+
+      <script src="script.js"></script>
+      
+
+    </body>
+    </html>

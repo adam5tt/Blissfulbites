@@ -1,0 +1,463 @@
+/*Geenral body styling*/
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+/*Header styling*/
+header {
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+/*navigation list styling*/
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/*navigation links styling*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*welcome section styling*/
+.welcome {
+    margin: 50px auto;
+    background: #ddd;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/*button styling*/
+button {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*footer styling*/
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*recipes list styling*/
+.recipes ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*recipes links styling*/
+.recipes li {
+    margin: 10px 0;
+
+}
+
+/*recipes links styling*/
+.recipes a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*recipes links hover effect*/
+.recipes a:hover {
+    color: #ffcc00;
+}
+
+/*general body style*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*container styling*/
+.container {
+    background: white;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/*heading 2 styling*/
+h2 {
+    margin-bottom: 15px;
+}
+
+/*input field styling*/
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*button styling*/
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/*button hover effect*/
+button:hover {
+    background-color: #ff9900;
+}
+
+/*logo styling*/
+#logo {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/*logo hover effect*/
+#logo:hover {
+    color: aqua
+}
+
+/*chocolate cake section styling*/
+.ChocolateCake-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Chocolate Cake content styling */
+.ChocolateCake-content {
+    max-width: 50%;
+}
+
+/* Chocolate Cake heading styling */
+
+.ChocolateCake-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*button styling*/
+.btn {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/*button hover effect*/
+.btn:hover {
+    background-color: #e6b800;
+}
+
+/*chocolate cake image styling*/
+.ChocolateCake-image img {
+    max-width:75%;
+    border-radius: 40px;
+}
+/*general body styling*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/*heading 2 styling*/
+h2 {
+    margin-bottom: 20px;
+}
+
+/*general body styling*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+/*header styling*/
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+/*logo styling*/
+#logo {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+/*navigation list styling*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*navigation list items styling*/
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/*navigation links styling*/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/*active link styling*/
+.active {
+    font-weight: bold;
+}
+
+/*heading 2 styling*/
+h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333;
+}
+
+/*recipe card styling*/
+.recipe {
+    background: white;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*recipe image styling*/
+.recipe img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*recipe heading styling*/
+.recipe h3 {
+    color: #333;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+/*recipe paragrapgh styling*/
+.recipe p {
+    color: #666;
+    font-size: 16px;
+}
+
+/*button styling*/
+.btn {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*button hover effect8*/
+.btn:hover {
+    background-color: #e6b800;
+}
+
+/*footer styling*/
+.footer {
+   position: sticky;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   border-radius: 30px;
+   
+
+}
+
+/*footer styling*/
+.footer1 {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    
+ 
+ }
+
+ /* Input, select, and textarea styling */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Submit button styling */
+input[type=submit] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Submit button hover effect */
+input [type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Container styling */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* General body styling */
+body {
+    font-family: arial, sans-serif;
+    background-color: #fff8e1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reviews container styling */
+.reviews-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Title styling */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d35400;
+}
+
+/* Reviews section styling */
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Review card styling */
+.review-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Review image styling */
+.review-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Review footer styling */
+.review-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* Review footer image styling */
+.review-footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Review footer paragraph styling */
+.review-footer p {
+    margin: 0;
+}
+
+/* Alert box styling */
+.alert {
+    display: block;  /* Ensure it's visible */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Info alert styling */
+.alert-info {
+    background-color: #d9edf7;
+    color: #31708f;
+    border: 1px solid #bce8f1;
+}
+
+/* Warning alert styling */
+.alert-warning {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+    border: 1px solid #faebcc;
+}
+
+
+
+
+
+
+
+
